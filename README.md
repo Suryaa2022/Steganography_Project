@@ -2,7 +2,7 @@
 
 My second project developed at Emertxe Information Technologies
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * C Programming
 * File Handling (BMP & Text Files)
@@ -13,7 +13,7 @@ My second project developed at Emertxe Information Technologies
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This is a command-line based **Steganography Application** written in C.
 It hides secret text data inside BMP images using **Least Significant Bit (LSB)** encoding.
@@ -21,32 +21,32 @@ The project demonstrates knowledge of bitwise operations, file I/O, image data m
 
 ---
 
-## ✨ Features
+## Features
 
-1⃣ **Encode Secret Data**
+1 **Encode Secret Data**
 
 * Hide text file inside BMP image
 * Encodes file extension and file size
 * Bitwise manipulation of image bytes
 
-2⃣ **Decode Secret Data**
+2 **Decode Secret Data**
 
 * Extract hidden data from Stego image
 * Retrieves file extension, size, and content
 
-3⃣ **Image Preservation**
+3 **Image Preservation**
 
 * Output Stego image has same size as original BMP
 * Visual distortions may occur (expected in raw BMP modification)
 
-4⃣ **File Validations**
+4 **File Validations**
 
 * Checks BMP format
 * Validates input file paths
 
 ---
 
-##📂 How to Compile
+## How to Compile
 
 ```bash
 gcc *.c -o stego_app
@@ -54,7 +54,7 @@ gcc *.c -o stego_app
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 **Encoding Secret File**
 
@@ -70,7 +70,7 @@ gcc *.c -o stego_app
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Surya Jeyaraman
+Surya
 
